@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.NTT.SpringJmsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 15.827 s <<< FAILURE! - in com.NTT.SpringJmsApplicationTests
+testReceiveSuccess(com.NTT.SpringJmsApplicationTests)  Time elapsed: 1.199 s  <<< ERROR!
+org.springframework.jms.UncategorizedJmsException: Uncategorized exception occurred during JMS processing; nested exception is javax.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+	at com.NTT.SpringJmsApplicationTests.testReceiveSuccess(SpringJmsApplicationTests.java:33)
+Caused by: javax.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+	at com.NTT.SpringJmsApplicationTests.testReceiveSuccess(SpringJmsApplicationTests.java:33)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.NTT.SpringJmsApplicationTests.testReceiveSuccess(SpringJmsApplicationTests.java:33)
+
+testReceiveFailure(com.NTT.SpringJmsApplicationTests)  Time elapsed: 1.026 s  <<< ERROR!
+org.springframework.jms.UncategorizedJmsException: Uncategorized exception occurred during JMS processing; nested exception is javax.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+	at com.NTT.SpringJmsApplicationTests.testReceiveFailure(SpringJmsApplicationTests.java:44)
+Caused by: javax.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+	at com.NTT.SpringJmsApplicationTests.testReceiveFailure(SpringJmsApplicationTests.java:44)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.NTT.SpringJmsApplicationTests.testReceiveFailure(SpringJmsApplicationTests.java:44)
+

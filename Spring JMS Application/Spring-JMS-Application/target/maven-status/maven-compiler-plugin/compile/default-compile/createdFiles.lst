@@ -1,0 +1,12 @@
+com\NTT\entity\MessageQueueEntity.class
+com\NTT\config\SenderConfig.class
+com\NTT\repository\MessageServiceRepo.class
+com\NTT\controller\OrderProductController.class
+com\NTT\constant\CommonConstants.class
+com\NTT\vo\Product.class
+com\NTT\Exception\ApplicationException.class
+com\NTT\SpringJmsApplication.class
+com\NTT\message\OrderSender.class
+com\NTT\message\OrderReceiver.class
+com\NTT\config\ReceiverConfig.class
+com\NTT\service\MessageService.class
