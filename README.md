@@ -16,5 +16,7 @@ H2
 
 Spring JPA
 
+# project has the following directory structure
+
 ![image](https://user-images.githubusercontent.com/55780025/65576133-eec40d80-dfa3-11e9-8ff9-44cdc4a13ecf.png)
 
